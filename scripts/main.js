@@ -13,18 +13,18 @@ myImage.onclick = function () {
     }
 }
 var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1'); //кнопка
+var myHeading = document.querySelector('h1'); //РєРЅРѕРїРєР°
 
 function setUserName() {
-    var myName = prompt('Пожалуйста, введи свое имя.');
+    var myName = prompt('РџРѕР¶Р°Р»СѓР№СЃС‚Р°, РІРІРµРґРё СЃРІРѕРµ РёРјСЏ.');
     localStorage.setItem('name', myName);
-    myHeading.textContent = 'Что тут происходит, ' + myName + '?';
+    myHeading.textContent = 'Р§С‚Рѕ С‚СѓС‚ РїСЂРѕРёСЃС…РѕРґРёС‚, ' + myName + '?';
 }
 if (!localStorage.getItem('name')) {
     setUserName();
 } else {
     var storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Что тут происходит, ' + storedName + '?';
+    myHeading.textContent = 'Р§С‚Рѕ С‚СѓС‚ РїСЂРѕРёСЃС…РѕРґРёС‚, ' + storedName + '?';
 }
 myButton.onclick = function () {
     setUserName();
