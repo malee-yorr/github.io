@@ -1,0 +1,32 @@
+﻿body {
+}
+html {
+    font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: 'Caveat', cursive;
+    background-color: #F6CAE9;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #F6CAE9;
+    text-shadow: 2px 2px 2px #8FB7AF;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #CBF4EC;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+}
